@@ -54,6 +54,7 @@ if (count($citas) === 0) {
                         <input type="hidden" name="id" value="<?php echo $cita->id; ?>">
                         <input type="submit" class="boton-eliminar" value="Eliminar">
                     </form>
+                </li>
             <?php }
             } // fin de foreach 
             ?>
