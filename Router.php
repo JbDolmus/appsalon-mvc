@@ -21,7 +21,6 @@ class Router
     {
 
         $currentUrl = $_SERVER['PATH_INFO'] ?? '/';
-        debuguear($currentUrl);
         $method = $_SERVER['REQUEST_METHOD'];
 
         if ($method === 'GET') {
